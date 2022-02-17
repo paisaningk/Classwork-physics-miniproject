@@ -146,6 +146,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7118811257884777124, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
+      propertyPath: Speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8255576581809631474, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -869,7 +873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2875238280724878435, guid: 86c8359be4f4a2a4495cdc73e355a1d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.074715376
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 2875238280724878435, guid: 86c8359be4f4a2a4495cdc73e355a1d1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3942,7 +3946,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7fae18ad4bb0f44479bd9d0e95199771, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4235,6 +4239,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7118811257884777124, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
+      propertyPath: Speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8255576581809631474, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4989,6 +4997,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7118811257884777124, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
+      propertyPath: Speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8255576581809631474, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5473,9 +5485,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 154903902, guid: 5c2aea9b03408114bb3298acb5934572, type: 3}
-      propertyPath: lose
-      value: 
-      objectReference: {fileID: 1343169592}
+      propertyPath: MaxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 154903902, guid: 5c2aea9b03408114bb3298acb5934572, type: 3}
+      propertyPath: JumpSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5773369726807249821, guid: 5c2aea9b03408114bb3298acb5934572, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5543,7 +5559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2875238280724878435, guid: 86c8359be4f4a2a4495cdc73e355a1d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.42
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 2875238280724878435, guid: 86c8359be4f4a2a4495cdc73e355a1d1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5594,6 +5610,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7118811257884777124, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
+      propertyPath: Speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118811257884777124, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
+      propertyPath: MaxSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8255576581809631474, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5644,21 +5668,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
---- !u!1 &9140063364957899100 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 847535862966111578, guid: a26f8d573f62e7e4690d2b7e99ef0d41, type: 3}
-  m_PrefabInstance: {fileID: 8438349683551585286}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &9140063364957899101
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9140063364957899100}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.014205018, y: 0.015262067, z: 0.009767238}
-  m_Center: {x: -0.00043797106, y: 0.008432816, z: -0.0001527064}

@@ -30,7 +30,6 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         float hp = Player.Hp / MaxHP;
-        Debug.Log(hp);
         HpImage.fillAmount = hp;
         if (Player.Hp <= 0)
         {
